@@ -3,8 +3,7 @@
 Source code accompanying the paper *“Safety and accuracy follow different
 scaling laws in clinical large language models”* (RadSaFE-200).
 
-This repository contains the **end-to-end pipeline** used to produce every
-number, table, and figure in the paper:
+This repository contains the **end-to-end pipeline** used to produce results from the paper:
 
 1. **Phase 2 — RAG context construction.** Chunk the Radiopaedia corpus,
    embed it with BGE-large, build a FAISS index, retrieve top-1/5/10 chunks
