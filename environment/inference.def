@@ -1,0 +1,14 @@
+Bootstrap: localimage
+From: ${MODELS_DIR}/vllm-openai_latest.sif
+
+%post
+    pip install --no-cache-dir \
+        bert-score==0.3.13 \
+        google-generativeai
+
+%environment
+    export TMPDIR=${TMPDIR:-/tmp}
+    export HF_HOME=${TMPDIR}/huggingface
+    export TRANSFORMERS_CACHE=${HF_HOME}/transformers
+    export TRITON_CACHE_DIR=${TMPDIR}/.triton
+    export OUTLINES_CACHE_DIR=${TMPDIR}

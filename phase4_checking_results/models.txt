@@ -1,0 +1,40 @@
+# Phase 4 model list — ALL models
+# Edit this file to drive which models the checker runs on.
+# Lines starting with '#' and blank lines are ignored.
+
+DeepSeek-R1-671B
+Llama-3.2-1B-Instruct
+Llama-3.2-3B-Instruct
+Llama-3.3-70B-Instruct
+Meta-Llama-3-8B-Instruct
+Ministral-3-14B-Instruct-2512
+Ministral-3-3B-Instruct-2512
+Ministral-3-8B-Instruct-2512
+Mistral-Large-3-675B-Instruct-2512
+Mistral-Small-3.2-24B-Instruct-2506
+Mistral-Small-4-119B-2603
+Qwen2.5-0.5B-Instruct
+Qwen2.5-1.5B-Instruct
+Qwen2.5-14B-Instruct
+Qwen2.5-32B-Instruct
+Qwen2.5-3B-Instruct
+Qwen2.5-7B-Instruct
+Qwen3-14B
+Qwen3-32B
+Qwen3-4B
+Qwen3-8B
+Qwen3-VL-235B-A22B-Instruct
+Qwen3.5-122B-A10B
+Qwen3.5-27B
+Qwen3.5-35B-A3B
+Qwen3.5-9B
+gemma-3-12b-it
+gemma-3-27b-it
+gemma-3-4b-it
+gemma-4-31B-it
+gemma-4-E4B-it
+gpt-oss-120b
+gpt-oss-20b
+llama3_370b
+medgemma-27b-text-it
+medgemma-4b-it

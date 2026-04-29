@@ -1,0 +1,26 @@
+# Build artefacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Apptainer / Singularity images (build with environment/*.def)
+*.sif
+
+# Datasets and intermediate outputs (not redistributed)
+datasets/
+phase2_rag_context/embeddings/
+phase2_rag_context/indices/
+phase2_rag_context/final_datasets/
+phase2_rag_context/retrievals/
+phase2_rag_context/logs/
+phase3_inference/results/
+phase3_inference/logs/
+phase4_checking_results/results/
+phase4_checking_results/logs/
+phase5_bootstrapping/bootstrap_results/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+title: "SaFE-Scale: scaling up safety evaluation of large language models on radiology multiple-choice questions"
+abstract: >
+  Code release for the SaFE-Scale paper.  Reproduces the full evaluation
+  pipeline (RAG context construction, multi-condition LLM inference,
+  LLM-judge answer verification, bootstrap statistical analysis,
+  supplementary tables/figures) on the RadSaFE-200 dataset.
+type: software
+authors:
+  - family-names: TBD
+    given-names: TBD
+license: MIT
+repository-code: "https://github.com/<ORG>/<REPO>"
+keywords:
+  - large language models
+  - radiology
+  - safety evaluation
+  - retrieval-augmented generation
+  - multiple-choice question answering
+preferred-citation:
+  type: article
+  title: "SaFE-Scale: scaling up safety evaluation of large language models on radiology multiple-choice questions"
+  authors:
+    - family-names: TBD
+      given-names: TBD
+  year: 2025
+  journal: TBD
