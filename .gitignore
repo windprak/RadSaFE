@@ -24,3 +24,5 @@ phase5_bootstrapping/bootstrap_results/
 .idea/
 .vscode/
 *.swp
+
+*.aux

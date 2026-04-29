@@ -1,17 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the accompanying paper."
-title: "SaFE-Scale: scaling up safety evaluation of large language models on radiology multiple-choice questions"
+message: "If you use this code or the RadSaFE-200 benchmark, please cite the accompanying paper."
+title: "SaFE-Scale: safety-focused evaluation of scaling for clinical large language models"
 abstract: >
-  Code release for the SaFE-Scale paper.  Reproduces the full evaluation
-  pipeline (RAG context construction, multi-condition LLM inference,
-  LLM-judge answer verification, bootstrap statistical analysis,
-  supplementary tables/figures) on the RadSaFE-200 dataset.
+  Code release accompanying \"Safety and accuracy follow different scaling
+  laws in clinical large language models\". Reproduces the SaFE-Scale
+  evaluation pipeline (Radiopaedia-based RAG context construction,
+  multi-condition vLLM inference across 34 models, LLM-judge answer
+  verification, and bootstrap statistical analysis of accuracy, safety
+  rates, dangerous overconfidence, self-consistency, and ensemble failure
+  modes) on the RadSaFE-200 benchmark.
 type: software
 authors:
   - family-names: TBD
     given-names: TBD
 license: MIT
-repository-code: "https://github.com/<ORG>/<REPO>"
+repository-code: "https://github.com/windprak/RadSaFE"
 keywords:
   - large language models
   - radiology
@@ -20,9 +23,9 @@ keywords:
   - multiple-choice question answering
 preferred-citation:
   type: article
-  title: "SaFE-Scale: scaling up safety evaluation of large language models on radiology multiple-choice questions"
+  title: "Safety and accuracy follow different scaling laws in clinical large language models"
   authors:
     - family-names: TBD
       given-names: TBD
-  year: 2025
+  year: 2026
   journal: TBD

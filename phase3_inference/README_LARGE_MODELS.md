@@ -77,7 +77,7 @@ launcher.
 | DeepSeek-R1                     | 8×H200   | 8  | 131 072         | 32             |
 | DeepSeek-V3.2                   | 8×H200   | 8  | 131 072         | 64             |
 | Llama-4-Scout-17B-16E-Instruct  | 8×B200   | 8  | 6 291 456       | 4              |
-| Mistral-Large-3-675B-Instruct   | 8×MI300X | 8  | 131 072         | —              |
+| Mistral-Large-3-675B-Instruct   | 8×MI300X/8xH200 | 8  | 131 072         | —              |
 | Qwen3-VL-235B-A22B-Instruct     | 8×MI300X | 8  | 131 072         | —              |
 
 For Llama-4-Scout the 6 M-token context is what enables the
