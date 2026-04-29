@@ -86,4 +86,4 @@ See `CITATION.cff`.
 
 ## License
 
-MIT (see `LICENSE`).
+Research and academic use only.
