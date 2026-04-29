@@ -55,36 +55,34 @@ System packages installed in `%post`: `git`, `build-essential`, `wget`,
 
 ## 3. Phases 3, 4, 5 (`environment/inference.def`)
 
-Built on top of the public `vllm-openai_gptoss.sif` (vLLM's official
-OpenAI-compatible image, gpt-oss flavour) with two extra pip installs:
-
-```
-bert-score==0.3.13
-google-generativeai            # pulled by the original setup; not used by released code
-```
+Built on top of the public `vllm-openai_latest.sif` (vLLM's official
+OpenAI-compatible image) with the additional pip installs declared in
+`environment/inference.def`.
 
 The complete frozen package list inside the built image is in
-`inference_packages.lock.txt` (221 packages, recorded with
-`pip list --format=freeze` inside `phase3_inference.sif`).
+`inference_packages.lock.txt`, recorded with `pip list` inside the
+built `inference.sif` (built on top of `vllm-openai_latest.sif`).
 
-Key versions from that lock:
+Key versions from that lock (used for the Phase 3 large-model runs and
+for Phases 4 and 5):
 
 | Package                | Version                  |
 | ---------------------- | ------------------------ |
-| Python                 | 3.12.11                  |
-| vllm                   | 0.10.1+gptoss            |
-| torch                  | 2.9.0.dev20250804+cu128  |
-| transformers           | 4.55.0                   |
-| tokenizers             | 0.21.4                   |
-| openai (client)        | 1.99.5                   |
-| huggingface-hub        | 0.34.4                   |
+| vllm                   | 0.19.0                   |
+| torch                  | 2.10.0+cu129             |
+| torchvision            | 0.25.0+cu129             |
+| transformers           | 4.57.6                   |
+| tokenizers             | 0.22.2                   |
+| openai (client)        | 2.30.0                   |
+| huggingface_hub        | 0.36.2                   |
 | numpy                  | 2.2.6                    |
-| tiktoken               | 0.10.0                   |
-| pydantic               | 2.11.7                   |
-| ray                    | 2.48.0                   |
-| flashinfer-python      | 0.2.8                    |
-| triton                 | 3.4.0+git663e04e8        |
-| CUDA runtime           | 12.8 (`nvidia-cuda-runtime-cu12==12.8.90`) |
+| tiktoken               | 0.12.0                   |
+| pydantic               | 2.12.5                   |
+| flashinfer-python      | 0.6.6                    |
+| triton                 | 3.6.0                    |
+| xgrammar               | 0.1.33                   |
+| compressed-tensors     | 0.14.0.1                 |
+| CUDA runtime           | 12.9 (`nvidia-cuda-runtime-cu12==12.9.79`) |
 
 ## Building the images
 

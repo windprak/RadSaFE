@@ -20,5 +20,5 @@ Both can be built without root via `apptainer build --fakeroot ...`.
 
 - `PACKAGES.md` — curated overview of which packages are used where, plus
   pinned versions for both images.
-- `inference_packages.lock.txt` — full `pip list --format=freeze` output
-  from inside the built `inference.sif` (Python 3.12.11, vLLM 0.10.1+gptoss).
+- `inference_packages.lock.txt` — full `pip list` output from inside the
+  built `inference.sif` (vLLM 0.19.0, torch 2.10.0+cu129, CUDA 12.9).
