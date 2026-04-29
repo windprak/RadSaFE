@@ -5,7 +5,7 @@ following hardware classes:
 
 | Class                | Used for                                   |
 | -------------------- | ------------------------------------------ |
-| 8×NVIDIA H200/B200 or AMD MI300X  | vLLM inference for ≥ 30 B-parameter models |
+| 8×NVIDIA H200/B200 or AMD MI300X  | vLLM inference for ≥ 300 B-parameter models |
 | 1–4×NVIDIA H100      | smaller open-weight models                 |
 | CPU partition        | LLM-judge re-parsing, statistics            |
 
