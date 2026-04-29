@@ -11,7 +11,7 @@ following hardware classes:
 
 You will need:
 
-- **Apptainer ≥ 1.2** (Singularity ≥ 3.8 also works) for the runtime images.
+- **Apptainer ≥ 1.2** for the runtime images.
 - **SLURM ≥ 20.11** if you want to use the supplied job scripts as-is.
 - A local cache of HuggingFace model weights (`MODELS_DIR`) for vLLM.
 
