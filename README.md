@@ -91,6 +91,7 @@ BGE-large-en-v1.5 embeddings, FAISS-cpu, NumPy.
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2605.04039}, 
 }
+```
 
 ## License
 
