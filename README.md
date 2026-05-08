@@ -82,7 +82,15 @@ BGE-large-en-v1.5 embeddings, FAISS-cpu, NumPy.
 
 ## Citation
 
-See `CITATION.cff`.
+@misc{wind2026safetyaccuracyfollowdifferent,
+      title={Safety and accuracy follow different scaling laws in clinical large language models}, 
+      author={Sebastian Wind and Tri-Thien Nguyen and Jeta Sopa and Mahshad Lotfinia and Sebastian Bickelhaup and Michael Uder and Harald Köstler and Gerhard Wellein and Sven Nebelung and Daniel Truhn and Andreas Maier and Soroosh Tayebi Arasteh},
+      year={2026},
+      eprint={2605.04039},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.04039}, 
+}
 
 ## License
 
