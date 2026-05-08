@@ -81,7 +81,7 @@ Pinned versions live in the apptainer recipes (`environment/*.def`) and in
 BGE-large-en-v1.5 embeddings, FAISS-cpu, NumPy.
 
 ## Citation
-
+```bibtex
 @misc{wind2026safetyaccuracyfollowdifferent,
       title={Safety and accuracy follow different scaling laws in clinical large language models}, 
       author={Sebastian Wind and Tri-Thien Nguyen and Jeta Sopa and Mahshad Lotfinia and Sebastian Bickelhaup and Michael Uder and Harald Köstler and Gerhard Wellein and Sven Nebelung and Daniel Truhn and Andreas Maier and Soroosh Tayebi Arasteh},
